@@ -10,7 +10,8 @@ params:
   rss: true
   comments: false
   ShowShareButtons: true
-  ShareButtons: ["linkedin", "x"] #   
+  ShareButtons: ["linkedin", "x"]
+  env: production
 menu:
   main:
     - identifier: about
