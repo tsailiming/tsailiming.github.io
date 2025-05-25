@@ -1,0 +1,25 @@
+baseURL: https://liming.dev/
+languageCode: en-us
+title: "Liming Random 404"
+theme: PaperMod
+enableEmoji: true
+params:
+  #background_color_class: bg-black
+  commit: false
+  show_reading_time: true
+  rss: true
+  comments: false
+  ShowShareButtons: true
+  ShareButtons: ["linkedin", "x"] #   
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: articles
+      name: Articles
+      url: /articles/
+      weight: 20
+permalinks:
+  posts: /:slug/
