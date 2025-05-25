@@ -23,3 +23,6 @@ menu:
       weight: 20
 permalinks:
   posts: /:slug/
+caches:
+  images:
+    dir: :cacheDir/images
