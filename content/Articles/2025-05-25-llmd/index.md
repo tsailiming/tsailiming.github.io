@@ -37,7 +37,7 @@ In order to support this demand, a token factory will be needed. It will require
 * Be sustainable and energy efficient to increase the tokens per watt/dollar.
 * Scalable and resilient, ensuring it can meet fluctuating demands from the users.
 
-In a token factory, you will frequenly find vLLM as the core inference engine. vLLM is a peformant inference engine that is optimized for serving large language models efficiently. It is designed to maximize throughput using features like continuous batching, paged attention and speculative decoding, leveraging hardware accelerators. These accelerators excel at highly parallel tasks required to predict the next token, however inference performance is often constrained by the available memory capcity.
+In a token factory, you will frequenly find vLLM as the core inference engine. vLLM is a peformant inference engine that is optimized for serving large language models efficiently. It is designed to maximize throughput using features like continuous batching, paged attention and speculative decoding, leveraging hardware accelerators. These accelerators excel at highly parallel tasks required to predict the next token, however inference performance is often constrained by the available memory capacity.
 
 However, vLLM alone is insufficient. To truly unlock its potential in the enterprise, we need a scalable, efficient, and open infrastructure. llm-d delivers that by enabling high-performance, distributed inference across heterogeneous environments.
 
@@ -57,6 +57,6 @@ LLM workload charactistic is different from http-based workload. There are many 
 
 ## Conclusion
 
-The increasing complexity and token demands of LLMs present significant operational and cost challenges for us.lm-d.ai is an open-source, Kubernetes-native distributed inference serving stack designed to overcome these hurdles, enabling scalable, high-performing, and cost-effective LLM operations. 
+The increasing complexity and token demands of LLMs present significant operational and cost challenges for us. llm-d is an open-source, Kubernetes-native distributed inference serving stack designed to overcome these hurdles, enabling scalable, high-performing, and cost-effective LLM operations. 
 
 In the next article, I will walkthrough of an example of llm-d running on OpenShfit AI.
